@@ -6,22 +6,24 @@ export default function Header() {
       <header>
         <div className="inner">
           <div className="logo">
-            <a href="#">로고</a>
+            <a href="./index.html">
+              <img src="./image/header_logo.svg" alt="" />
+            </a>
           </div>
           <div className="menu-bar">
             <ul className="menu-bar-menu menu-hidden">
               <li>
-                <a href="#">스토리</a>
+                <a href="story.html">스토리</a>
               </li>
               <li>
-                <a href="#">스토리</a>
+                <a href="search.html">식물 카테고리</a>
               </li>
               <li>
-                <a href="#">스토리</a>
+                <a href="test.html">자가진단</a>
               </li>
             </ul>
-            <a href="#" className="munu-icon">
-              메뉴 아이콘
+            <a href="#" className="menu-icon">
+              <i className="fas fa-bars"></i>
             </a>
           </div>
         </div>
