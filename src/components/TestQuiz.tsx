@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
+import '../styles/test.scss';
 
 export default function TestQuiz() {
   return (
