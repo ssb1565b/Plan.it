@@ -1,8 +1,10 @@
 import React from 'react';
+import Header from './Header';
 
 export default function TestQuiz() {
   return (
     <>
+      <Header />
       {/* <!-- 자가진단 페이지의 어떤유형일까 --> */}
       <section className="test">
         <div className="besy">{/* <!-- 여백 색 채우기용 --> */}</div>
