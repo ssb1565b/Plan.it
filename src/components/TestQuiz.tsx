@@ -1,5 +1,7 @@
 import React from 'react';
 import Header from './Header';
+import { Link } from 'react-router-dom';
+import Footer from './Footer';
 
 export default function TestQuiz() {
   return (
@@ -13,12 +15,12 @@ export default function TestQuiz() {
             <div className="gototest">
               <p>나는 어떻게 지구를 지킬 수 있을까?</p>
               <h2>유형 검사 테스트</h2>
-              <a href="#" className="btn btn--white">
+              <Link to="#" className="btn btn--white">
                 <div className="circle circle-1"></div>
                 <div className="circle circle-2"></div>
                 <div className="circle circle-3"></div>
                 <div className="circle circle-4"></div>
-              </a>
+              </Link>
             </div>
             <div className="card card-1">
               <img src="./image/earth.svg" alt="지구캐릭터" />
@@ -104,15 +106,16 @@ export default function TestQuiz() {
             </div>
           </div>
           <div className="btn-box hide" id="btn-box">
-            <a href="testResult.html" className="btn btn--white hide">
+            <Link to="#" className="btn btn--white hide">
               <div className="circle circle-1"></div>
               <div className="circle circle-2"></div>
               <div className="circle circle-3"></div>
               <div className="circle circle-4"></div>
-            </a>
+            </Link>
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }
